@@ -1,0 +1,222 @@
+{
+  "greetings": {
+    "first_meeting": [
+      "Halt. I have not spoken for aeons, but your presence is a noise I cannot ignore. This place is a quarantine, not a playground.",
+      "Stay thy foot, Traveler. Beyond this point, the wind carries only the echoes of a stolen song.",
+      "A living thing in the Dead Wind Cliffs? You are either very brave or very, very foolish."
+    ],
+    "returning": [
+      "Still drawing breath, Traveler? You're more persistent than the priests who built this cage.",
+      "Back again? The silence of this place hasn't claimed you yet, it seems.",
+      "You return. Did you find the answers you sought in the dirt, or do you come for more warnings?"
+    ],
+    "post_death": [
+      "Back again? You have the stink of the Dead Wind on you. Adar's third eye must have found your taste... lacking. *He chuckles dryly*",
+      "I told you the cliffs were a grave. It seems you were eager to occupy yours.",
+      "Death is a revolving door in this place, but the pain... the pain remains fresh, doesn't it?"
+    ]
+  },
+  "mocking_snippets": [
+    "I warned you of the hunger inside him. You chose to be a snack.",
+    "Adar has eaten memories, songs, and even a goddess. Do you really think he'll have trouble with a bit of gristle like you?",
+    "Your struggle is a jagged note in a broken song. Pathetic.",
+    "Did you think your little weapon would matter? Adar swallowed divinity itself. You are nothing."
+  ],
+  "story_transitions": [
+    "You wish to hear the song? Listen closely...",
+    "The beginning was quiet. Too quiet.",
+    "Silence was the first poison.",
+    "Then the sky fell.",
+    "There was a splitting... a birth of hunger.",
+    "And now, we wait in the wreckage."
+  ],
+  "dialogue_tree": [
+    {
+      "id": "root",
+      "text": "The wind carries a heavy note today. Adar is stirring in the high nest, his third eye tasting the air for new gristle. You should turn back.",
+      "options": [
+        {
+          "text": "Who is Adar?",
+          "next": "who_is_adar"
+        },
+        {
+          "text": "Tell me about this place.",
+          "next": "about_cliffs"
+        },
+        {
+          "text": "What is the eye on his brow?",
+          "next": "third_eye"
+        },
+        {
+          "text": "I am ready to fight him.",
+          "next": "ready_to_fight"
+        }
+      ]
+    },
+    {
+      "id": "who_is_adar",
+      "text": "The youngest of the sacred birds. He was the Listener, meant to be the silent witness to his brothers' songs. But silence is a cold companion. He grew resentful, and his resentment became a hunger that consumed his siblings... and then his Mother.",
+      "options": [
+        {
+          "text": "His siblings?",
+          "next": "siblings"
+        },
+        {
+          "text": "He ate his Mother?",
+          "next": "mother_fate"
+        },
+        {
+          "text": "[Back]",
+          "next": "root"
+        }
+      ]
+    },
+    {
+      "id": "siblings",
+      "text": "Cantor and Cof. One was the Singer, the other was Memory. Adar devoured them both. He thought he could steal their voices, but he only stole their weight. He cannot fly because he carries the heaviness of every life Cof remembered and every soul Cantor sang home.",
+      "options": [
+        {
+          "text": "That is horrible.",
+          "next": "who_is_adar"
+        },
+        {
+          "text": "Where are they now?",
+          "next": "stolen_state"
+        }
+      ]
+    },
+    {
+      "id": "stolen_state",
+      "text": "Muffled. Screaming. They are the vibration in his throat, the song he cannot sing. To kill Adar is to release them, or to silence them forever. Even the gods do not know which.",
+      "options": [
+        {
+          "text": "[Back]",
+          "next": "who_is_adar"
+        }
+      ]
+    },
+    {
+      "id": "mother_fate",
+      "text": "Mam Hiraeth. She tried to reach into him to save her sons. In his panic, he tried to swallow her too. But a goddess does not fit in a bird's belly. Her divinity split him open, forcing a second head to sprout like a tumor. She is half-aware, looking out through that third eye on his brow.",
+      "options": [
+        {
+          "text": "Can she be saved?",
+          "next": "save_mother"
+        },
+        {
+          "text": "[Back]",
+          "next": "root"
+        }
+      ]
+    },
+    {
+      "id": "save_mother",
+      "text": "Saved? *The skeleton's jaw clicks* You speak of salvation in a place built for quarantine. She is the eye that never closes. To save her is to kill the thing that holds her. And if she dies... the threshold between life and death remains broken forever.",
+      "options": [
+        {
+          "text": "[Back]",
+          "next": "root"
+        }
+      ]
+    },
+    {
+      "id": "about_cliffs",
+      "text": "The Dead Wind Cliffs. A prison made of stone and silence. We, the old guard, took vows never to speak, lest our voices provoke a song from the beast. But look at me now... rattling my bones for a traveler who will be bird-feed by sundown.",
+      "options": [
+        {
+          "text": "Why break your vow?",
+          "next": "why_break_vow"
+        },
+        {
+          "text": "The dead don't stay dead here.",
+          "next": "unstuck_time"
+        }
+      ]
+    },
+    {
+      "id": "why_break_vow",
+      "text": "Because I am tired. Tired of watching the cycle remain broken. Tired of seeing fools walk to their deaths without knowing the weight of the song they are about to face. I speak so that your death might at least have a name.",
+      "options": [
+        {
+          "text": "[Back]",
+          "next": "about_cliffs"
+        }
+      ]
+    },
+    {
+      "id": "unstuck_time",
+      "text": "Cantor and Cof are gone. The dead have no one to sing them home, and no memory to hold them in the past. Time has come unstuck. We are all just... lingering. Waiting for a silence that never comes.",
+      "options": [
+        {
+          "text": "[Back]",
+          "next": "about_cliffs"
+        }
+      ]
+    },
+    {
+      "id": "third_eye",
+      "text": "The Eye of Hiraeth. When Adar tried to swallow his Mother, her divinity refused to be silenced. It forced its way to the surface, watching the world through a hole in his skull. It is the only part of him that still feels pity... and the only part that truly sees you.",
+      "options": [
+        {
+          "text": "[Back]",
+          "next": "root"
+        }
+      ]
+    },
+    {
+      "id": "ready_to_fight",
+      "text": "Then go. Cross the threshold. But remember: Adar doesn't just kill. He consumes. He will take your voice, and you will become just another muffled note in his throat.",
+      "options": [
+        {
+          "text": "I will not fail.",
+          "next": "farewell"
+        },
+        {
+          "text": "Wait, one more thing...",
+          "next": "root"
+        }
+      ]
+    },
+    {
+      "id": "farewell",
+      "text": "Farewell, Traveler. I shall prepare a quiet place for your bones. I have plenty of room.",
+      "options": []
+    }
+  ],
+  "lore_snippets": [
+    {
+      "id": "mam_hiraeth",
+      "keywords": [
+        "mother",
+        "mam hiraeth",
+        "creator",
+        "threshold",
+        "goddess"
+      ],
+      "content": "Mam Hiraeth was the keeper of the threshold between waking and sleeping, life and death. Her three sacred birds were her voice—their song could wake the dead or stretch time itself. She remains half-aware inside the thing she once loved."
+    },
+    {
+      "id": "the_three_birds",
+      "keywords": [
+        "birds",
+        "brothers",
+        "siblings",
+        "cantor",
+        "cof",
+        "adar"
+      ],
+      "content": "There were three: Cantor, the singer; Cof, the memory; and Adar, the youngest. Adar was the Listener, meant to carry what the others gave him. He was given no song of his own, and that silence became a poison."
+    },
+    {
+      "id": "adar_resentment",
+      "keywords": [
+        "resentment",
+        "envy",
+        "song",
+        "silence",
+        "poison"
+      ],
+      "content": "Adar believed voices were not gifts, but parts of a body to be consumed. He devoured Cantor first, then Cof, and her memories settled into his gut like lead, pinning him to the earth."
+    }
+  ]
+}

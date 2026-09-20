@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bird_UpperBody_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: C_pelvis
+    m_Weight: 0
+  - m_Path: C_pelvis/C_tail
+    m_Weight: 0
+  - m_Path: C_pelvis/COM
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/C_neck_base
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/C_neck_base/C_neck_mid
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/C_neck_base/C_neck_mid/C_neck_top
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/C_neck_base/C_neck_mid/C_neck_top/C_head
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/L_shoulder
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/L_shoulder/L_elbow
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/L_shoulder/L_elbow/L_wrist
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/L_shoulder/L_elbow/L_wrist/L_tip
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/R_shoulder
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/R_shoulder/R_elbow
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/R_shoulder/R_elbow/R_wrist
+    m_Weight: 1
+  - m_Path: C_pelvis/COM/R_shoulder/R_elbow/R_wrist/R_tip
+    m_Weight: 1
+  - m_Path: C_pelvis/L_hip
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_1_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_1_joint_1/L_toe_1_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_1_joint_1/L_toe_1_joint_2/L_toe_1_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_1_joint_1/L_toe_1_joint_2/L_toe_1_joint_3/L_toe_1_tip
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_2_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_2_joint_1/L_toe_2_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_2_joint_1/L_toe_2_joint_2/L_toe_2_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_2_joint_1/L_toe_2_joint_2/L_toe_2_joint_3/L_toe_2_tip
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_3_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_3_joint_1/L_toe_3_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_3_joint_1/L_toe_3_joint_2/L_toe_3_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe_3_joint_1/L_toe_3_joint_2/L_toe_3_joint_3/L_toe_3_tip
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_1_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_1_joint_1/R_toe_1_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_1_joint_1/R_toe_1_joint_2/R_toe_1_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_1_joint_1/R_toe_1_joint_2/R_toe_1_joint_3/R_toe_1_tip
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_2_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_2_joint_1/R_toe_2_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_2_joint_1/R_toe_2_joint_2/R_toe_2_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_2_joint_1/R_toe_2_joint_2/R_toe_2_joint_3/R_toe_2_tip
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_3_joint_1
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_3_joint_1/R_toe_3_joint_2
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_3_joint_1/R_toe_3_joint_2/R_toe_3_joint_3
+    m_Weight: 0
+  - m_Path: C_pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe_3_joint_1/R_toe_3_joint_2/R_toe_3_joint_3/R_toe_3_tip
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
